@@ -1,0 +1,28 @@
+{
+  "name": "ms-nodejs-express-grpc",
+  "version": "1.0.0",
+  "description": "microservice that receives requests through gRPC",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkangme/ms-nodejs-express-gRPC.git"
+  },
+  "keywords": [
+    "node",
+    "gRPC"
+  ],
+  "author": "Dennis Kangme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkangme/ms-nodejs-express-gRPC/issues"
+  },
+  "homepage": "https://github.com/dkangme/ms-nodejs-express-gRPC#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.3.7",
+    "@grpc/proto-loader": "^0.6.5",
+    "dotenv": "^10.0.0"
+  }
+}
